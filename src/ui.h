@@ -14,8 +14,8 @@ typedef struct{
 
 
 typedef struct{
-	int      x, y, h, w;
-	uint32_t color;
+	int      x, y, h, w, framewidth;
+	uint32_t color, framecolor;
 }Box;
 
 typedef struct{
@@ -30,7 +30,7 @@ typedef struct{
 	
 }Widget_Frame;
 
-
+void drawBox(Gfx, Box);
 
 
 
