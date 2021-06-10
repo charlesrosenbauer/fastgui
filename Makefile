@@ -1,3 +1,3 @@
 all:
-	clang -lSDL -O3 src/*.c -o bin/gui
+	clang -lSDL -lSDL_ttf -O3 src/*.c -o bin/gui
 
